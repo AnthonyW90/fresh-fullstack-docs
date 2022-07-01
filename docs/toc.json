@@ -1,0 +1,49 @@
+{
+	"toc": {
+		"title": "Table of contents"
+	},
+	"general": {
+		"title": "0 General",
+		"pages": [
+			["course-overview", "01 Course Overview"],
+			["setup", "02 Setup"],
+			["git", "03 Git"],
+			["markdown", "04 Markdown"],
+			["regular-expressions", "05 Regular Expressions"],
+			["programming-languages", "06 Programming Languages"],
+			["json-csv-xml", "07 JSON, CSV, & XML"],
+			["networking", "08 Networking"],
+			["professional-programming", "09 Professional Programming"],
+			["agile-scrum-kanban", "10 Agile, Scrum, Kanban"]
+		]
+	},
+	"python": {
+		"title": "01 Python",
+		"pages": [
+			["python-overview", "00 Python Overview"],
+			["fundamentals", "01 Fundamentals"],
+			["exceptions-testing", "02 Exceptions & Testing"],
+			["numbers-arithmetic", "03 Numbers & Arithmetic"],
+			[
+				"booleans-comparisons-conditionals",
+				"04 Booleans, Comparisons, & Conditionals"
+			],
+			["imports-modules-packages", "05 Imports, Modules, & Packages"],
+			["random", "06 Random"],
+			["loops", "07 while & for loops"],
+			["strings", "08 Strings"],
+			["lists-tuples", "09 Lists & Tuples"],
+			["functions", "10 Functions"],
+			["dictionaries", "11 Dictionaries"],
+			["regular-expressions-in-python", "12 Regular Expressions in Python"],
+			["datetimes", "13 Datetimes"],
+			["classes", "14 Classes"],
+			["requests", "15 Requests"],
+			["docstrings", "Docstrings"],
+			["file-io", "File IO"],
+			["sets", "Sets"],
+			["trees", "Trees"],
+			["virtual-environments", "Virtual Environments"]
+		]
+	}
+}
