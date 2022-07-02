@@ -1,6 +1,6 @@
 # Document site for PDX Code Guild Fullstack
 
-[View Site (needs work)](https://fresh-fullstack-docs.deno.dev/docs/toc)
+[View Site (WIP)](https://fresh-fullstack-docs.deno.dev/docs/toc)
 
 ### Usage
 
