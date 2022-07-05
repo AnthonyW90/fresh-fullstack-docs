@@ -3,7 +3,7 @@
 # Fundamentals
 
 ## Variables, Objects, & Types
-<table>
+<table class="split">
 <tr>
 <thead>
 

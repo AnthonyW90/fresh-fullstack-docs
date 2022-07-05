@@ -29,7 +29,7 @@ export const SUBJECTS: DocumentSubject[] = []
 
 for(const parent in (TOC as unknown as TOCItem)){
   const subject = (TOC as unknown as TOCItem)[parent]
-  const href = `/docs/${parent}`;
+  const href = `/${parent}`;
   const file = `docs/${parent}/index.md`;
 
   TABLE_OF_CONTENTS[parent] = {
@@ -49,7 +49,7 @@ for(const parent in (TOC as unknown as TOCItem)){
   if(subject.pages) {
     for(const [id, title] of subject.pages) {
       const slug = `${parent}/${id}`;
-      const href = `/docs/${slug}`;
+      const href = `/${slug}`;
       const file = `docs/${slug}.md`;
       const page = {slug, title, href, subject: parent, file}
       TABLE_OF_CONTENTS[slug] = page;

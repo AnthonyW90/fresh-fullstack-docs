@@ -2,13 +2,13 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/docs/[...slug].tsx";
+import * as $0 from "./routes/[...slug].tsx";
 import * as $1 from "./routes/index.tsx";
 import * as $2 from "./routes/markdown.css.ts";
 
 const manifest = {
   routes: {
-    "./routes/docs/[...slug].tsx": $0,
+    "./routes/[...slug].tsx": $0,
     "./routes/index.tsx": $1,
     "./routes/markdown.css.ts": $2,
   },
