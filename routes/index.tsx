@@ -6,8 +6,10 @@ import { SUBJECTS } from "../data/docs.ts"
 
 export default function Home() {
 
-  const icons = {
-    "01 Python": <i class="devicon-python-plain"></i>
+
+  const icons: {[key: string]: preact.JSX.Element} = {
+    general:  <i class="devicon-markdown-original"></i>,
+    python: <i class="devicon-python-plain"></i>
   }
 
   return (
@@ -23,8 +25,8 @@ export default function Home() {
         <ul>
           {subject.entries.map(entry => (
           <li class={tw`text-lg pl-4`}>
-            {icons[subject.title] || ""}
-            <a class={tw`hover:underline`} href={entry.href}>{entry.title}</a>
+            {icons[subject.title.toLowerCase()] || " "}
+            <a class={tw`hover:underline pl-4`} href={entry.href}>{entry.title}</a>
           </li>
           ))}
         </ul>

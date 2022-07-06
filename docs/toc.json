@@ -3,7 +3,7 @@
 		"title": "Table of contents"
 	},
 	"general": {
-		"title": "0 General",
+		"title": "General",
 		"pages": [
 			["course-overview", "01 Course Overview"],
 			["setup", "02 Setup"],
@@ -18,7 +18,7 @@
 		]
 	},
 	"python": {
-		"title": "01 Python",
+		"title": "Python",
 		"pages": [
 			["python-overview", "00 Python Overview"],
 			["fundamentals", "01 Fundamentals"],
